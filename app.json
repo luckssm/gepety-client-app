@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "gepety-cliente",
+    "slug": "gepety-cliente",
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logos/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "gepety-cliente",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/logos/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gepety.gepetycliente",
+      "versionCode": 4
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb4ede6e-239b-49c5-ae15-d5217759987f"
+      }
+    },
+    "owner": "gepety"
+  }
+}
